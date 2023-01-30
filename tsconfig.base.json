@@ -1,0 +1,123 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitReturns": false,
+    "baseUrl": ".",
+    "paths": {
+      "@hera/config": ["libs/config/src/index.ts"],
+      "@hera/data": ["libs/data/src/index.ts"],
+      "@hera/i18n": ["libs/i18n/src/index.ts"],
+      "@hera/icons": ["libs/icons/src/index.ts"],
+      "@hera/lc-ui": ["libs/lc-ui/src/index.ts"],
+      "@hera/ui": ["libs/ui/src/index.ts"],
+      "@hera/utils": ["libs/utils/src/index.ts"],
+      "@hera/services": ["libs/services/src/index.ts"],
+      "@hera/hooks": ["libs/hooks/index.ts"],
+      "@hera/contexts": ["libs/contexts/src/index.ts"],
+      "@hera/types": ["libs/types.ts"],
+
+      // lc
+      "@lc/HomeComponents": ["apps/lg-cosmetic/components/HomePage/index.ts"],
+      "@lc/PaymentComponents": ["apps/lg-cosmetic/components/Payment/index.ts"],
+      "@lc/LayoutComponents": ["apps/lg-cosmetic/components/Layout/index.ts"],
+      "@lc/UserSettingComponents": [
+        "apps/lg-cosmetic/components/UserSetting/index.ts"
+      ],
+      "@lc/LcProductDetailComponent": [
+        "apps/lg-cosmetic/components/LcProductDetail/index.ts"
+      ],
+      "@lc/LcProductsComponent": [
+        "apps/lg-cosmetic/components/LcProducts/index.ts"
+      ],
+      "@lc/LcCheckoutComponent": [
+        "apps/lg-cosmetic/components/LcCheckout/index.ts"
+      ],
+      "@lc/LcShopInShopComponent": [
+        "apps/lg-cosmetic/components/LcShopInShop/index.ts"
+      ],
+      "@lc/BlogComponent": ["apps/lg-cosmetic/components/LcBlog/index.ts"],
+      "@lc/components": ["apps/lg-cosmetic/components/index.ts"],
+      "@lc/ModalComponents": ["apps/lg-cosmetic/components/LcModals/index.ts"],
+      "@lc/constants": ["apps/lg-cosmetic/constants.ts"],
+      "@lc/contexts": ["apps/lg-cosmetic/contexts/index.ts"],
+      "@lc/types": ["apps/lg-cosmetic/types.ts"],
+      "@lc/hooks": ["apps/lg-cosmetic/hooks/index.ts"],
+      "@lc/lang": ["apps/lg-cosmetic/lang/index.ts"],
+      "@lc/static/images": ["apps/lg-cosmetic/static/images/index.ts"],
+      "@lc/styles": ["apps/lg-cosmetic/styles/index.ts"],
+      "@lc/validations": ["apps/lg-cosmetic/validations/index.ts"],
+      "@lc/themes": ["apps/lg-cosmetic/themes/index.ts"],
+      "@lc/utils": ["apps/lg-cosmetic/utils/index.ts"],
+      "@lc/libs": ["apps/lg-cosmetic/libs/index.ts"],
+      "@lc/LcListReview": ["apps/lg-cosmetic/components/LcListReview/index.ts"],
+
+      // nestle
+      "@nestle/HomeComponents": ["apps/nestle/components/HomePage/index.ts"],
+      "@nestle/PaymentComponents": ["apps/nestle/components/Payment/index.ts"],
+      "@nestle/LayoutComponents": ["apps/nestle/components/Layout/index.ts"],
+      "@nestle/UserSettingComponents": [
+        "apps/nestle/components/UserSetting/index.ts"
+      ],
+      "@nestle/NesProductDetailsComponent": [
+        "apps/nestle/components/NesProductDetail/index.ts"
+      ],
+      "@nestle/NesProductsComponent": [
+        "apps/nestle/components/NesProducts/index.ts"
+      ],
+      "@nestle/NesCheckoutComponent": [
+        "apps/nestle/components/NesCheckout/index.ts"
+      ],
+      "@nestle/NesShopInShopComponent": [
+        "apps/nestle/components/NesShopInShop/index.ts"
+      ],
+      "@nestle/BlogComponent": ["apps/nestle/components/NesBlog/index.ts"],
+      "@nestle/components": ["apps/nestle/components/index.ts"],
+      "@nestle/ModalComponents": ["apps/nestle/components/NesModals/index.ts"],
+      "@nestle/constants": ["apps/nestle/constants.ts"],
+      "@nestle/contexts": ["apps/nestle/contexts/index.ts"],
+      "@nestle/types": ["apps/nestle/types.ts"],
+      "@nestle/hooks": ["apps/nestle/hooks/index.ts"],
+      "@nestle/lang": ["apps/nestle/lang/index.ts"],
+      "@nestle/static/images": ["apps/nestle/static/images/index.ts"],
+      "@nestle/styles": ["apps/nestle/styles/index.ts"],
+      "@nestle/validations": ["apps/nestle/validations/index.ts"],
+      "@nestle/themes": ["apps/nestle/themes/index.ts"],
+      "@nestle/utils": ["apps/nestle/utils/index.ts"],
+      "@nestle/getSamples": ["apps/nestle/components/NesGetSample/index.ts"],
+
+      // Get Sample
+      "@gsp/HomeComponents": ["apps/get-sample/components/HomePage/index.ts"],
+      "@gsp/LayoutComponents": ["apps/get-sample/components/Layout/index.ts"],
+      "@gsp/ProductDetailsComponent": [
+        "apps/get-sample/components/ProductDetails/index.ts"
+      ],
+      "@gsp/ProductListComponent": [
+        "apps/get-sample/components/ProductList/index.ts"
+      ],
+      "@gsp/components": ["apps/get-sample/components/index.ts"],
+      "@gsp/constants": ["apps/get-sample/constants.ts"],
+      "@gsp/contexts": ["apps/get-sample/contexts/index.ts"],
+      "@gsp/types": ["apps/get-sample/types.ts"],
+      "@gsp/hooks": ["apps/get-sample/hooks/index.ts"],
+      "@gsp/lang": ["apps/get-sample/lang/index.ts"],
+      "@gsp/static/images": ["apps/get-sample/static/images/index.ts"],
+      "@gsp/styles": ["apps/get-sample/styles/index.ts"],
+      "@gsp/validations": ["apps/get-sample/validations/index.ts"],
+      "@gsp/themes": ["apps/get-sample/themes/index.ts"],
+      "@gsp/utils": ["apps/get-sample/utils/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

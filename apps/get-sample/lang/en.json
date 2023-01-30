@@ -1,0 +1,16 @@
+{
+  "validations.common.addressRequired": "Địa chỉ không được để trống",
+  "validations.common.fullNameRequired": "Họ tên không được để trống",
+  "validations.common.fullNameCanNotContainSpecialCharacters": "Họ tên không được chứa ký tự đặc biệt",
+  "validations.common.required": "Mục này không được để trống",
+  "validations.common.invalidFullName": "Họ tên không hợp lệ",
+  "validations.common.invalidLastName": "Họ & Tên lót không hợp lệ",
+  "validations.common.invalidFirstName": "Tên không hợp lệ",
+  "validations.common.lastNameCanNotHaveSpecialChars": "Họ & Tên lót không được chứa ký tự đặc biệt",
+  "validations.common.firstNameCanNotHaveSpecialChars": "Tên không được chứa ký tự đặc biệt",
+  "validations.common.invalidAddress": "Địa chỉ không hợp lệ",
+  "validations.common.invalidPhoneNumber": "Sai định dạng số điện thoại",
+  "validations.common.invalidEmail": "Địa chỉ email không hợp lệ",
+  "validations.common.donotContainSpecialCharacters": "Không được chứa ký tự đặc biệt",
+  "validations.common.mustHaveAtLeastTwoWords": "Họ & tên phải có ít nhất 2 từ"
+}

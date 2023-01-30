@@ -1,0 +1,513 @@
+{
+  "version": 2,
+  "projects": {
+    "config": {
+      "root": "libs/config",
+      "sourceRoot": "libs/config/src",
+      "projectType": "library",
+      "tags": [],
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/config/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/config"],
+          "options": {
+            "jestConfig": "libs/config/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "data": {
+      "root": "libs/data",
+      "sourceRoot": "libs/data/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/data/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/data"],
+          "options": {
+            "jestConfig": "libs/data/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "hera": {
+      "root": "apps/hera",
+      "sourceRoot": "apps/hera/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:webpack",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/hera",
+            "index": "apps/hera/src/index.html",
+            "baseHref": "/",
+            "main": "apps/hera/src/main.tsx",
+            "polyfills": "apps/hera/src/polyfills.ts",
+            "tsConfig": "apps/hera/tsconfig.app.json",
+            "assets": ["apps/hera/src/favicon.ico", "apps/hera/src/assets"],
+            "styles": [],
+            "scripts": [],
+            "webpackConfig": "@nrwl/react/plugins/webpack"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/hera/src/environments/environment.ts",
+                  "with": "apps/hera/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/web:dev-server",
+          "options": {
+            "buildTarget": "hera:build",
+            "hmr": true
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "hera:build:production",
+              "hmr": false
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/hera/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/hera"],
+          "options": {
+            "jestConfig": "apps/hera/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "hera-e2e": {
+      "root": "apps/hera-e2e",
+      "sourceRoot": "apps/hera-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/hera-e2e/cypress.json",
+            "devServerTarget": "hera:serve",
+            "tsConfig": "apps/hera-e2e/tsconfig.json"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "hera:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/hera-e2e/**/*.{js,ts}"]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["hera"]
+    },
+    "i18n": {
+      "root": "libs/i18n",
+      "sourceRoot": "libs/i18n/src",
+      "projectType": "library",
+      "tags": [],
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/i18n/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/i18n"],
+          "options": {
+            "jestConfig": "libs/i18n/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "icons": {
+      "root": "libs/icons",
+      "sourceRoot": "libs/icons/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/icons/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/icons"],
+          "options": {
+            "jestConfig": "libs/icons/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "lc-ui": {
+      "root": "libs/lc-ui",
+      "sourceRoot": "libs/lc-ui/src",
+      "projectType": "library",
+      "tags": [],
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/lc-ui/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/lc-ui"],
+          "options": {
+            "jestConfig": "libs/lc-ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "nestle": {
+      "root": "apps/nestle",
+      "sourceRoot": "apps/nestle",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/next:build",
+          "outputs": ["{options.outputPath}"],
+          "defaultConfiguration": "production",
+          "options": {
+            "root": "apps/nestle",
+            "outputPath": "dist/apps/nestle"
+          },
+          "configurations": {
+            "production": {}
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/next:server",
+          "options": {
+            "buildTarget": "nestle:build",
+            "dev": true
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "nestle:build:production",
+              "dev": false
+            }
+          }
+        },
+        "export": {
+          "executor": "@nrwl/next:export",
+          "options": {
+            "buildTarget": "nestle:build:production"
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/nestle"],
+          "options": {
+            "jestConfig": "apps/nestle/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/nestle/**/*.{ts,tsx,js,jsx}"]
+          }
+        }
+      },
+      "tags": []
+    },
+    "get-sample": {
+      "root": "apps/get-sample",
+      "sourceRoot": "apps/get-sample",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/next:build",
+          "outputs": ["{options.outputPath}"],
+          "defaultConfiguration": "production",
+          "options": {
+            "root": "apps/get-sample",
+            "outputPath": "dist/apps/get-sample"
+          },
+          "configurations": {
+            "production": {}
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/next:server",
+          "options": {
+            "buildTarget": "get-sample:build",
+            "dev": true
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "get-sample:build:production",
+              "dev": false
+            }
+          }
+        },
+        "export": {
+          "executor": "@nrwl/next:export",
+          "options": {
+            "buildTarget": "get-sample:build:production"
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/get-sample"],
+          "options": {
+            "jestConfig": "apps/get-sample/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/get-sample/**/*.{ts,tsx,js,jsx}"]
+          }
+        }
+      },
+      "tags": []
+    },
+    "lg-cosmetic": {
+      "root": "apps/lg-cosmetic",
+      "sourceRoot": "apps/lg-cosmetic",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/next:build",
+          "outputs": ["{options.outputPath}"],
+          "defaultConfiguration": "production",
+          "options": {
+            "root": "apps/lg-cosmetic",
+            "outputPath": "dist/apps/lg-cosmetic"
+          },
+          "configurations": {
+            "production": {}
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/next:server",
+          "options": {
+            "buildTarget": "lg-cosmetic:build",
+            "dev": true
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "lg-cosmetic:build:production",
+              "dev": false
+            }
+          }
+        },
+        "export": {
+          "executor": "@nrwl/next:export",
+          "options": {
+            "buildTarget": "lg-cosmetic:build:production"
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/lg-cosmetic"],
+          "options": {
+            "jestConfig": "apps/lg-cosmetic/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/lg-cosmetic/**/*.{ts,tsx,js,jsx}"]
+          }
+        }
+      },
+      "tags": []
+    },
+    "lg-cosmetic-e2e": {
+      "root": "apps/lg-cosmetic-e2e",
+      "sourceRoot": "apps/lg-cosmetic-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/lg-cosmetic-e2e/cypress.json",
+            "devServerTarget": "lg-cosmetic:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "lg-cosmetic:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/lg-cosmetic-e2e/**/*.{js,ts}"]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["lg-cosmetic"]
+    },
+    "mock-server": {
+      "root": "apps/mock-server",
+      "sourceRoot": "apps/mock-server/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:webpack",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/mock-server",
+            "main": "apps/mock-server/src/main.ts",
+            "tsConfig": "apps/mock-server/tsconfig.app.json",
+            "assets": ["apps/mock-server/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/mock-server/src/environments/environment.ts",
+                  "with": "apps/mock-server/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:node",
+          "options": {
+            "buildTarget": "mock-server:build"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/mock-server/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/mock-server"],
+          "options": {
+            "jestConfig": "apps/mock-server/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "ui": {
+      "root": "libs/ui",
+      "sourceRoot": "libs/ui/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/ui/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ui"],
+          "options": {
+            "jestConfig": "libs/ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "utils": {
+      "root": "libs/utils",
+      "sourceRoot": "libs/utils/src",
+      "projectType": "library",
+      "tags": [],
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/utils/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/utils"],
+          "options": {
+            "jestConfig": "libs/utils/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
+  }
+}

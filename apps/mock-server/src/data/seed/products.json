@@ -1,0 +1,296 @@
+[
+  {
+    "brand": {
+      "id": 22,
+      "name": "Cetaphil",
+      "slug": "cetaphil"
+    },
+    "category": {
+      "id": 329,
+      "name": "Sữa, gel rửa mặt",
+      "slug": "yeu-da-duoc-my-pham-sua-gel-rua-mat"
+    },
+    "current_sale_event": null,
+    "current_sale_event_product": null,
+    "default_image": {
+      "default_product_url": "https://files.moira.vn/uploads/images/product/1304/images/thumb/Cu01q0iYHJILUsXAaiA5q.jpg"
+    },
+    "description": "<p><strong>Sữa Rửa Mặt Dịu Nhẹ Cho Mọi Loại Da Cetaphil Gentle Skin Cleanser</strong> là sản phẩm đến từ<strong> </strong><a href=\"https://hasaki.vn/thuong-hieu/cetaphil.html\"><strong>thương hiệu Cetaphil</strong></a> của Canada,thuộc&nbsp;công ty&nbsp;dược&nbsp;nổi tiếng Galderma Laboratories với mạng lưới phân phối rộng khắp thế giới, được các chuyên gia da liễu bào chế với thành phần giúp da mềm mại hoàn toàn không gây kích ứng với cả những làn da nhạy cảm.</p><p>Không giống như các sản phẩm khác trên thị trường có chứa xà phòng,&nbsp;<strong>Sữa Rửa Mặt Cetaphil</strong> <strong>Cetaphil Gentle Skin Cleanser </strong>có công thức&nbsp;không chứa kiềm, không tạo nhân trứng cá và không chứa hương liệu. <a href=\"https://hasaki.vn/danh-muc/sua-rua-mat-c19.html\"><strong>Sữa rửa mặt</strong></a> dịu nhẹ Cetaphil giúp loại bỏ bã nhờn, tẩy sạch bụi bẩn và cặn trang điểm mà không làm cho da bạn bị khô ráp. Cho bạn cảm giác sảng khoái, tươi mát và sạch sẽ&nbsp;không gây kích ứng cho mặt, tay và cơ thể, giúp da giữ được độ ẩm cần thiết để lại cảm giác làn da mềm mại, mịn màng và khỏe mạnh.</p><p><strong>Loại da phù hợp:</strong></p><ul><li>Sản phẩm phù hợp với mọi loại da, đặc biệt là da nhạy cảm.</li><li>Có thể sử dụng cho da&nbsp;bị mụn trứng cá, chàm thể tạng, eczema, rôm sảy, hăm da, ngứa, da khô, da nhạy cảm, vảy cá, đỏ da, vẩy nến, bỏng nắng, viêm da dị ứng, chàm tiếp xúc, da bị lão hóa, nám da, da bị kích thích khi sử dụng benzoyl peroxide, tretinoine, adapalene...</li><li>Dùng tẩy trang, thay kem cạo râu, tắm khô cho sản phụ sau sinh, bệnh nhân hậu phẫu, bệnh nhân cần tránh bị nhiễm lạnh, lau mặt cho bé sau ăn, bú.</li><li>Dùng cho da mặt, tay và toàn thân.&nbsp;Cũng là sản phẩm dưỡng da lý tưởng cho làn da mềm mại của trẻ em.</li></ul><p><strong>Công dụng chính:</strong></p><ul><li>Làm sạch da an toàn, loại bỏ tạp chất và bụi bẩn trên da nhẹ nhàng mà hiệu quả, không làm kích ứng da.</li><li>Cung cấp độ ẩm cho da mềm mại, không bị khô căng sau khi rửa mặt.</li><li>Sản phẩm có thể sử dụng để tắm.</li><li>Có thể dùng với nước hoặc dùng khô đều được.</li></ul><p><strong>Độ an toàn:</strong></p><ul><li>Công thức không xà phòng, độ pH cân bằng, dịu nhẹ, không gây kích ứng cho làn da nhạy cảm, kể cả da em bé.</li></ul><p><strong>Thành phần chính:</strong> Water, Cetyl Alcohol, Propylene Glycol, Sodium Lauryl Sulfate, Stearyl Alcohol, Methylparaben, Propylparaben, Butylparaben.</p><p><strong>Hướng dẫn sử dụng:</strong></p><ul><li>Có thể dùng khô được.</li><li>Sau khi làm ướt da mặt, cho lượng nhỏ vừa đủ, massage lên da mặt và rửa lại sạch với nước.</li><li>Ngày dùng: 1-2 lần/ ngày.</li></ul>",
+    "id": 1304,
+    "images": [
+      {
+        "is_default": true,
+        "large": "https://files.moira.vn/uploads/images/product/1304/images/large/Cu01q0iYHJILUsXAaiA5q.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1304/images/original/Cu01q0iYHJILUsXAaiA5q.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1304/images/small/Cu01q0iYHJILUsXAaiA5q.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1304/images/thumb/Cu01q0iYHJILUsXAaiA5q.jpg"
+      },
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/1304/images/large/moH3v1-wf0z_AU7Msl3Eu.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1304/images/original/moH3v1-wf0z_AU7Msl3Eu.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1304/images/small/moH3v1-wf0z_AU7Msl3Eu.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1304/images/thumb/moH3v1-wf0z_AU7Msl3Eu.jpg"
+      },
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/1304/images/large/nxBh9iVSAFxA0q9Yfl-4Q.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1304/images/original/nxBh9iVSAFxA0q9Yfl-4Q.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1304/images/small/nxBh9iVSAFxA0q9Yfl-4Q.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1304/images/thumb/nxBh9iVSAFxA0q9Yfl-4Q.jpg"
+      },
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/1304/images/large/BIuwRnpHT9DRPEOybYPDz.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1304/images/original/BIuwRnpHT9DRPEOybYPDz.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1304/images/small/BIuwRnpHT9DRPEOybYPDz.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1304/images/thumb/BIuwRnpHT9DRPEOybYPDz.jpg"
+      }
+    ],
+    "in_stock": 5,
+    "max_in_cart": 3,
+    "max_retail_price": 185000,
+    "meta_description": null,
+    "meta_keywords": null,
+    "meta_title": null,
+    "min_in_cart": 1,
+    "name": "Sữa rửa mặt Cetaphil Gentl Skin Ceanser 125ml",
+    "promotions": null,
+    "rating_avg": "0.00",
+    "rating_summary": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "selling_price": 121000,
+    "sku": "9318637070510",
+    "slug": "sua-rua-mat-cetaphil-gentl-skin-ceanser-125ml",
+    "taxons": [
+      {
+        "id": 135,
+        "name": "Promotion",
+        "slug": "promotion"
+      },
+      {
+        "id": 137,
+        "name": "Best Seller",
+        "slug": "best-seller"
+      },
+      {
+        "id": 140,
+        "name": "Khuyễn Mãi Mới Nhất",
+        "slug": "khuyen-mai-moi-nhat"
+      },
+      {
+        "id": 152,
+        "name": "DƯỢC MỸ PHẨM",
+        "slug": "mua-1-duoc-6"
+      },
+      {
+        "id": 216,
+        "name": "Tất cả sản phẩm",
+        "slug": "tat-ca-san-pham"
+      },
+      {
+        "id": 259,
+        "name": "[LDP] Moira | Voucher",
+        "slug": "moira-ldp-moira-or-voucher"
+      },
+      {
+        "id": 292,
+        "name": "Hàng Mới Về",
+        "slug": "hang-moi-ve"
+      },
+      {
+        "id": 329,
+        "name": "Sữa, gel rửa mặt",
+        "slug": "yeu-da-duoc-my-pham-sua-gel-rua-mat"
+      }
+    ]
+  },
+  {
+    "brand": {
+      "id": 22,
+      "name": "Cetaphil",
+      "slug": "cetaphil"
+    },
+    "category": {
+      "id": 323,
+      "name": "Dưỡng ẩm",
+      "slug": "yeu-da-duoc-my-pham-duong-am"
+    },
+    "current_sale_event": null,
+    "current_sale_event_product": null,
+    "default_image": {
+      "default_product_url": "https://files.moira.vn/uploads/images/product/1164/images/thumb/ttYrGe7S98tzQto8dJXN8.jpg"
+    },
+    "description": "<p><strong>Sữa Dưỡng Ẩm Cetaphil Moisturizing Lotion (59ml)</strong> được các chuyên gia da liễu bào chế với thành phần giúp da mềm mại và hoàn toàn không gây kích ứng với cả những làn da nhạy cảm nhất.&nbsp;</p><p>- Cetaphil Moisturizing Lotion là sản phẩm không chứa kiềm, không tạo nhân trứng cá và không chứa hương liệu.&nbsp;</p><p>- Vừa dưỡng da vừa làm mềm và xoa dịu da, giúp làn da giữ lại độ ẩm cần thiết.&nbsp;</p><p>- Cũng là sản phẩm dưỡng da lý tưởng cho làn da mềm mại của trẻ em.&nbsp;</p><p>- Dùng cho da mặt hay toàn thân và không hề bị bóng nhờn.&nbsp;</p><p>- Giải quyết các vấn đề da bị nứt nẻ, bong tróc một cách hiệu quả.&nbsp;</p><p>- Nếu thoa vào buổi tối sẽ giúp da mềm mại và mịn màng sau khi ngủ dậy.&nbsp;</p><p>- Đặc trị mụn triệt để, đặc biệt là mụn trứng cá. Không hề kén da, da khô hay da nhạy cảm, bị vảy nến đều có thể dùng được.&nbsp;</p><p>- Tăng cường độ ẩm cần thiết cho da.</p>",
+    "id": 1164,
+    "images": [
+      {
+        "is_default": true,
+        "large": "https://files.moira.vn/uploads/images/product/1164/images/large/ttYrGe7S98tzQto8dJXN8.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1164/images/original/ttYrGe7S98tzQto8dJXN8.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1164/images/small/ttYrGe7S98tzQto8dJXN8.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1164/images/thumb/ttYrGe7S98tzQto8dJXN8.jpg"
+      },
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/1164/images/large/q03AQy7DNhd1-k6JGtCJx.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1164/images/original/q03AQy7DNhd1-k6JGtCJx.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1164/images/small/q03AQy7DNhd1-k6JGtCJx.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1164/images/thumb/q03AQy7DNhd1-k6JGtCJx.jpg"
+      },
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/1164/images/large/LqbDN1NRLWu8gcuxRBkTT.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/1164/images/original/LqbDN1NRLWu8gcuxRBkTT.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/1164/images/small/LqbDN1NRLWu8gcuxRBkTT.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/1164/images/thumb/LqbDN1NRLWu8gcuxRBkTT.jpg"
+      }
+    ],
+    "in_stock": 1,
+    "max_in_cart": 20,
+    "max_retail_price": 99000,
+    "meta_description": null,
+    "meta_keywords": null,
+    "meta_title": null,
+    "min_in_cart": 1,
+    "name": "Sữa Dưỡng Ẩm Cetaphil Moisturizing Lotion (59ml)",
+    "promotions": null,
+    "rating_avg": "0.00",
+    "rating_summary": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "selling_price": 91000,
+    "sku": "302993918288",
+    "slug": "sua-duong-am-cetaphil-moisturizing-lotion-59ml-xem-82-danh-gia",
+    "taxons": [
+      {
+        "id": 135,
+        "name": "Promotion",
+        "slug": "promotion"
+      },
+      {
+        "id": 137,
+        "name": "Best Seller",
+        "slug": "best-seller"
+      },
+      {
+        "id": 140,
+        "name": "Khuyễn Mãi Mới Nhất",
+        "slug": "khuyen-mai-moi-nhat"
+      },
+      {
+        "id": 216,
+        "name": "Tất cả sản phẩm",
+        "slug": "tat-ca-san-pham"
+      },
+      {
+        "id": 259,
+        "name": "[LDP] Moira | Voucher",
+        "slug": "moira-ldp-moira-or-voucher"
+      },
+      {
+        "id": 292,
+        "name": "Hàng Mới Về",
+        "slug": "hang-moi-ve"
+      },
+      {
+        "id": 323,
+        "name": "Dưỡng ẩm",
+        "slug": "yeu-da-duoc-my-pham-duong-am"
+      },
+      {
+        "id": 432,
+        "name": "Sản phẩm phổ biến",
+        "slug": "san-pham-pho-bien"
+      }
+    ]
+  },
+  {
+    "brand": {
+      "id": 89,
+      "name": "Cezanne",
+      "slug": "cezanne"
+    },
+    "category": {
+      "id": 31,
+      "name": "Phấn má dạng nén",
+      "slug": "trang-diem-phan-ma-phan-ma-dang-nen"
+    },
+    "current_sale_event": null,
+    "current_sale_event_product": null,
+    "default_image": {
+      "default_product_url": "https://files.moira.vn/uploads/images/product/2497/images/thumb/UNPpC_1VkZ-sFMQWn2QdP.jpg"
+    },
+    "description": "<p>Phấn má Cezanne Natural Cheek N có thành phần chứa ngọc trai, có tác dụng làm nổi bật các đường nét trên khuôn mặt, làm da mặt sáng bóng, mịn màng, dễ tán đều khi trang điểm và tẩy trang nhưng vẫn giữ vẻ sáng đẹp suốt cả ngày.&nbsp;<br>– Hộp phấn nhỏ gọn, vô cùng tiết kiệm, thân thiện với môi trường. Sản phẩm còn có chiếc cọ nhỏ xinh đi kèm, sẵn sàng cho những lúc bạn cần “tút” lại nhan sắc mình dù ở bất cứ nơi đâu.&nbsp;<br><br>Thành phần &nbsp;<br><br>– 90% là chứa khoáng chất tự nhiên, ngọc trai,…&nbsp;<br>Cách sử dụng &nbsp;<br><br>– Với khuôn mặt tròn: Bạn nên tán phấn từ nơi cao nhất của gò má, sau đó tán đều theo hướng xéo về màng tai.&nbsp;<br>– Với khuôn mặt dài: Bạn nên cũng bắt đầu đánh phấn từ gò má, tán về phía màng tai và phủ một lớp phấn nhẹ nơi thái dương.&nbsp;<br>– Với khuôn mặt vuông: Bạn bắt đầu từ gò má, sau đó tán phấn xuống phầm hõm má một ít.&nbsp;<br><br>CAM KẾT: Không chất tạo mùi, không chứa chất dầu khoáng, không chứa cồn, không chứa paraben, không chứa bột talc&nbsp;<br><br>Trọng lượng 4g</p>",
+    "id": 2497,
+    "images": [
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/2497/images/large/IWOTAf_vn88Okds33WafL.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/2497/images/original/IWOTAf_vn88Okds33WafL.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/2497/images/small/IWOTAf_vn88Okds33WafL.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/2497/images/thumb/IWOTAf_vn88Okds33WafL.jpg"
+      },
+      {
+        "is_default": true,
+        "large": "https://files.moira.vn/uploads/images/product/2497/images/large/UNPpC_1VkZ-sFMQWn2QdP.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/2497/images/original/UNPpC_1VkZ-sFMQWn2QdP.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/2497/images/small/UNPpC_1VkZ-sFMQWn2QdP.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/2497/images/thumb/UNPpC_1VkZ-sFMQWn2QdP.jpg"
+      },
+      {
+        "is_default": false,
+        "large": "https://files.moira.vn/uploads/images/product/2497/images/large/tXiwsbvpat5xLyYLtcrsg.jpg",
+        "original": "https://files.moira.vn/uploads/images/product/2497/images/original/tXiwsbvpat5xLyYLtcrsg.jpg",
+        "small": "https://files.moira.vn/uploads/images/product/2497/images/small/tXiwsbvpat5xLyYLtcrsg.jpg",
+        "thumb": "https://files.moira.vn/uploads/images/product/2497/images/thumb/tXiwsbvpat5xLyYLtcrsg.jpg"
+      }
+    ],
+    "in_stock": 1,
+    "max_in_cart": 20,
+    "max_retail_price": 185000,
+    "meta_description": null,
+    "meta_keywords": null,
+    "meta_title": null,
+    "min_in_cart": 1,
+    "name": "Phấn má Cezanne Natural Cheek N- 4g _14",
+    "promotions": null,
+    "rating_avg": "0.00",
+    "rating_summary": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "selling_price": 185000,
+    "sku": "4939553040781",
+    "slug": "phan-ma-cezanne-natural-cheek-n-4g-14",
+    "taxons": [
+      {
+        "id": 31,
+        "name": "Phấn má dạng nén",
+        "slug": "trang-diem-phan-ma-phan-ma-dang-nen"
+      },
+      {
+        "id": 137,
+        "name": "Best Seller",
+        "slug": "best-seller"
+      },
+      {
+        "id": 432,
+        "name": "Sản phẩm phổ biến",
+        "slug": "san-pham-pho-bien"
+      }
+    ]
+  }
+]

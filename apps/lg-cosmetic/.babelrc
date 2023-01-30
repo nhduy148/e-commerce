@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "@emotion"
+    ],
+    [
+      "formatjs",
+      {
+        "idInterpolationPattern": "[sha512:contenthash:base64:6]",
+        "ast": true,
+        "additionalFunctionNames": [
+          "__"
+        ]
+      }
+    ]
+  ]
+}

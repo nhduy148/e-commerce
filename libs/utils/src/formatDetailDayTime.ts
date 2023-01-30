@@ -1,0 +1,14 @@
+import dayjs from "dayjs";
+export function formatDetailDayTime(
+  value: string | number = 0,
+  locale: string,
+) {
+  if (locale === "en") {
+    return dayjs(value).format(" MMM DD, YYYY");
+  }
+  if (locale === "vi") {
+    return `${dayjs(value).format("DD")} tháng ${dayjs(value).format(
+      "M, YYYY",
+    )}`;
+  }
+}

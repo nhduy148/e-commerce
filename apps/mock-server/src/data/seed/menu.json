@@ -1,0 +1,57 @@
+[
+  {
+    "display_type": "brand",
+    "text": "Thương Hiệu",
+    "type": "taxon",
+    "value": "brand_id"
+  },
+  {
+    "display_type": "link",
+    "text": "Super Sale",
+    "type": "taxon",
+    "url": "/c/flash-sale",
+    "value": "flash_sale_id"
+  },
+  {
+    "display_type": "menu",
+    "root_taxon": "yeu-da",
+    "text": "Yêu Da",
+    "type": "taxon",
+    "value": "love_skin_id"
+  },
+  {
+    "display_type": "menu",
+    "root_taxon": "yeu-co-the",
+    "text": "Yêu Cơ Thể",
+    "type": "taxon",
+    "value": "love_body_id"
+  },
+  {
+    "display_type": "menu",
+    "root_taxon": "yeu-toc",
+    "text": "Yêu Tóc",
+    "type": "taxon",
+    "value": "love_hair_id"
+  },
+  {
+    "display_type": "menu",
+    "root_taxon": "yeu-trang-diem",
+    "text": "Yêu Trang Điểm",
+    "type": "taxon",
+    "value": "make_up_id"
+  },
+  {
+    "display_type": "link",
+    "text": "E-Voucher",
+    "type": "taxon",
+    "url": "/evoucher",
+    "value": "all_product_id"
+  },
+  {
+    "display_type": "link",
+    "text": "Blog",
+    "type": "taxon",
+    "url": "/blog",
+    "value": "blog_id"
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "/IUbjN": {
+    "defaultMessage": "27B Nguyen Dinh Chieu St., Da Kao Ward, District 1, HCMC"
+  },
+  "1eKU0M": {
+    "defaultMessage": "Khiếu nại/đổi trả"
+  },
+  "2LJDO5": {
+    "defaultMessage": "Chính sách bảo mật"
+  },
+  "2jnuV8": {
+    "defaultMessage": "Không tìm thấy"
+  },
+  "3ae8El": {
+    "defaultMessage": "Liên kết"
+  },
+  "45Lc7T": {
+    "defaultMessage": "Địa chỉ email"
+  },
+  "61eWKx": {
+    "defaultMessage": "Không có kết quả"
+  },
+  "AIVo2m": {
+    "defaultMessage": "Quy định sử dụng"
+  },
+  "APCnj+": {
+    "defaultMessage": "Gửi"
+  },
+  "AUtGrA": {
+    "defaultMessage": "Miêu tả"
+  },
+  "CYIG0Z": {
+    "defaultMessage": "Hãy theo dõi chúng tôi để nhận bản tin & khuyến mãi mới nhất!"
+  },
+  "DMxb7l": {
+    "defaultMessage": "Hướng dẫn sử dụng"
+  },
+  "FmFaTC": {
+    "defaultMessage": "Mô tả"
+  },
+  "FzFnza": {
+    "defaultMessage": "Giới thiệu"
+  },
+  "GVAyU8": {
+    "defaultMessage": "Danh mục"
+  },
+  "I7Ox1c": {
+    "defaultMessage": "Liên hệ"
+  },
+  "Kx9qVq": {
+    "defaultMessage": "Đăng ký dùng thử"
+  },
+  "L4L4Zn": {
+    "defaultMessage": "OnPoint © 2022. All Rights Reserved."
+  },
+  "Uu5KoB": {
+    "defaultMessage": "Chi tiết"
+  },
+  "WHw3i8": {
+    "defaultMessage": "Bạn đang muốn tìm sản phẩm nào?"
+  },
+  "WPXNX8": {
+    "defaultMessage": "Dùng thử miễn phí"
+  },
+  "WmJTcp": {
+    "defaultMessage": "Email không đúng định dạng"
+  },
+  "YXMZa9": {
+    "defaultMessage": "Ẩn bớt"
+  },
+  "Za/aKP": {
+    "defaultMessage": "Hỗ trợ 24/7"
+  },
+  "a36WVm": {
+    "defaultMessage": "Thương hiệu nổi bật"
+  },
+  "breadcrumb.homePage": {},
+  "cUtFEQ": {
+    "defaultMessage": "Xem thêm"
+  },
+  "common.account": {},
+  "common.cancel": {},
+  "common.close": {},
+  "common.confirm": {},
+  "common.outOfStock": {},
+  "common.search": {},
+  "common.siteName": {},
+  "dJgwDi": {
+    "defaultMessage": "Email không được để trống"
+  },
+  "da+g66": {
+    "defaultMessage": "Các câu hỏi thường gặp"
+  },
+  "dnitkE": {
+    "defaultMessage": "Kích thước"
+  },
+  "ekm1jk": {
+    "defaultMessage": "Đang tải..."
+  },
+  "errorPage.content1": {},
+  "errorPage.content2": {},
+  "errorPage.home": {},
+  "fS+32J": {
+    "defaultMessage": "Trọng lượng"
+  },
+  "jkWuwf": {
+    "defaultMessage": "Thương hiệu"
+  },
+  "lrj+2Y": {
+    "defaultMessage": "Hàng chính hãng"
+  },
+  "mche/0": {
+    "defaultMessage": "Về chúng tôi"
+  },
+  "mzP5Xs": {
+    "defaultMessage": "Miễn phí vận chuyển"
+  },
+  "nSf3zR": {
+    "defaultMessage": "Theo dõi chúng tôi"
+  },
+  "nffijB": {
+    "defaultMessage": "Hỗ trợ khách hàng"
+  },
+  "productDetail.noProducts": {},
+  "productsPage.Brands": {},
+  "productsPage.BreadcrumbAllProducts": {},
+  "productsPage.BreadcrumbHomePage": {},
+  "productsPage.DeleteAll": {},
+  "productsPage.Filter": {},
+  "productsPage.FilterApply": {},
+  "productsPage.NoProducts": {},
+  "productsPage.Prices": {},
+  "wishlist.addFailure": {},
+  "wishlist.addSuccess": {},
+  "wishlist.removeFailure": {},
+  "wishlist.removeSuccess": {},
+
+  "validations.common.addressRequired": "Địa chỉ không được để trống",
+  "validations.common.fullNameRequired": "Họ tên không được để trống",
+  "validations.common.fullNameCanNotContainSpecialCharacters": "Họ tên không được chứa ký tự đặc biệt",
+  "validations.common.required": "Mục này không được để trống",
+  "validations.common.invalidFullName": "Họ tên không hợp lệ",
+  "validations.common.invalidLastName": "Họ & Tên lót không hợp lệ",
+  "validations.common.invalidFirstName": "Tên không hợp lệ",
+  "validations.common.lastNameCanNotHaveSpecialChars": "Họ & Tên lót không được chứa ký tự đặc biệt",
+  "validations.common.firstNameCanNotHaveSpecialChars": "Tên không được chứa ký tự đặc biệt",
+  "validations.common.invalidAddress": "Địa chỉ không hợp lệ",
+  "validations.common.invalidPhoneNumber": "Sai định dạng số điện thoại",
+  "validations.common.invalidEmail": "Địa chỉ email không hợp lệ",
+  "validations.common.donotContainSpecialCharacters": "Không được chứa ký tự đặc biệt",
+  "validations.common.mustHaveAtLeastTwoWords": "Họ & tên phải có ít nhất 2 từ"
+}
